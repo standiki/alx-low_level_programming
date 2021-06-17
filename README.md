@@ -1,1 +1,1 @@
-#### 0x00. C - Hello, World
+### This project is all about C, low level programming language
