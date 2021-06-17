@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
-/*
+
+/**
  * main - Print size of various types
  *
  * Return: 0
