@@ -9,7 +9,7 @@
 int main(void)
 {
 	char str;
-	for (str = Holberton"; str <= 9; str++)
+	for (str = 'Holberton'; str <= 9; str++)
 	{
 		_putchar(str);
 	}
