@@ -1,4 +1,4 @@
-ft#include "holberton.h"
+#include "holberton.h"
 /**
  *print_alphabet_x10 - prints a-z 10X
  *
