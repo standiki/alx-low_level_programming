@@ -4,7 +4,7 @@
  *
  *Return: void
  */
-void print_alphabet(voi)
+void print_alphabet(void)
 {
 	for (int i = 1; i < 11; i++)
 	{
