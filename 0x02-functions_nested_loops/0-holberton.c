@@ -1,24 +1,19 @@
 #include "holberton.h"
-
 /**
- *main - using characters each, prints Holberton
+ *main - prints holberton using _putchar
  *
  *Return: 0
  */
-
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
+	char str[] = "Holberton";
+	int i = 0;
 
+	while(i <= 9)
+	{
+		_putchar(str[i]);
+		i++;
+	}
 	_putchar('\n');
-
 	return (0);
 }
