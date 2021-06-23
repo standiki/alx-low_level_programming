@@ -1,21 +1,21 @@
 #include "holberton.h"
+
 /**
- *print_alphabet_x10 - prints a-z 10X
- *
+ *print_alphabet_x10 - prints alphabets x10
  *Return: void
  */
 void print_alphabet_x10(void)
 {
 	int i;
-	
+
 	for (i = 1; i < 11; i++)
 	{
-		char alpha = 'a';
+		char c = 'a';
 
-		while (alpha <= 'z')
+		while (c <= 'z')
 		{
-			_putchar(alpha);
-			alpha++;
+			_putchar(c);
+			c++;
 		}
 		_putchar('\n');
 	}
