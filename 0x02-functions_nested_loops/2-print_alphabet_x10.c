@@ -6,7 +6,9 @@
  */
 void print_alphabet(void)
 {
-	for (int i = 1; i < 11; i++)
+	int i;
+	
+	for (i = 1; i < 11; i++)
 	{
 		char alpha = 'a';
 
