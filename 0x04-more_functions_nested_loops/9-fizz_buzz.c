@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	int i, t, f;
 	int a;
 	int b;
 
