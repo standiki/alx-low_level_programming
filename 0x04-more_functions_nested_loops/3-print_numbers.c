@@ -4,6 +4,7 @@
 *print_numbers: print number 0 - 9 using putchar
 *
 *Return: void
+*/
 
 void print_numbers(void)
 {
@@ -11,7 +12,7 @@ void print_numbers(void)
 
 	for (num = 0; num <= 9; num++)
 	{
-		putchar(num);
+		_putchar(num);
 	}
-	putchar('\n);
+	_putchar('\n');
 }
