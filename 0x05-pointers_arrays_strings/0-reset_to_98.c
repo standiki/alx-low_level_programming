@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  *reset_to_98 - receives a pointer int and updates the value in memory
  *
