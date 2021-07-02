@@ -7,16 +7,14 @@
  *
  *Return: destinatina variable (dest)
  */
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src, size_t n)
 {
-	while (*dest != 0)
-		dest++;
+	size_t dest_len = strlen(dest);
+	size_t i;
 
-	while (*src != 0)
-	{
-		src++;
-		*dest = *src;
-	}
+	for (i = 0 ; i < n && src[i] != '\0' ; i++)
+		dest[dest_len + i] = src[i];
+	dest[dest_len + i] = '\0';
 
 	return dest;
 }
