@@ -1,5 +1,5 @@
-#ifndef OBJECT_LIKE_MACRO.H
-#define OBJECT_LIKE_MACRO.H
+#ifndef OBJECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
 
 /**
  * SIZE: an abbreviation for the token 1024
