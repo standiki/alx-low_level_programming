@@ -3,6 +3,8 @@
 
 /**
  * SUM - computes the sum of the numbers x and y
+ * @x: first number
+ * @y: second number
  */
 
 #define SUM(x, y) ((x) + (y))
