@@ -1,5 +1,8 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdlib.h>
+#include <stdio.h>
 
 /* Functions prototypes */
 
@@ -10,5 +13,6 @@ int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
 int _putchar(char c);
+int get_endianness(void);
 
-#endif /* ifndef HOLBERTON_H */
+#endif /* ifndef MAIN_H */
